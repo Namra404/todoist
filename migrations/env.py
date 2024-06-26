@@ -1,6 +1,6 @@
 from src.core.config import DB_NAME, DB_USER, DB_PASSWORD, DB_HOST, DB_PORT
 
-from app.configuration.models import *
+from src.core.models import *
 from src.db.postgres import Base
 
 from logging.config import fileConfig
